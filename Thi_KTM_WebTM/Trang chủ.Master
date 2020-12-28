@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Trang chủ.master.cs" Inherits="Bài_thi_ASP.NET.Trang_chủ" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Tin Tức Mới Nhất</title>
+    <link href="Themes/styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 849px;
+        }
+        .auto-style2 {
+            height: 634px;
+        }
+        #ipo {
+            width: 367px;
+            height: 51px;
+        }
+    </style>
+</head>
+<body>
+    <form id="Home" runat="server">
+        <div id="menutop">
+            <div id="menu">
+                <ul>
+                    <li><a href="Tintuc.aspx">Tin Tức</a></li>
+
+                    <li><a href="Tácgia.aspx">Tác giả</a></li>
+                    <li><a href="ChuDe.aspx">Chủ đề</a></li>
+                </ul>
+            </div>
+            </div>
+        <div id="maincontent" class="auto-style1">
+            <div id="rightcontent">
+                <h1>WELLCOME</h1>
+                <div id="ndright">
+                    Chào mừng đến với trang Tin Tức 24h.
+                    Tin tức sẽ được chúng tôi cập nhật thường xuyên và nhanh chóng nhất để mang đến cho đọc giả.
+                </div>
+
+            </div>
+            <div id="content" class="auto-style2">
+                
+       
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <img src="https://image.thanhnien.vn/660/uploaded/lanphuong/2020_12_27/doituyenvnngay27122020gapu22vncongphuongbhva169_lxhv.jpg" alt="" style="width:197px; height:109px;">
+                <h1>2 trận tuyển Việt Nam và U.22: Thầy Park mang nỗi 'bất an' về Hàn Quốc!</h1>
+                <img src="https://i1-suckhoe.vnecdn.net/2020/12/28/s1-3574-1608462137-6429-1609123108.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=TUFus8NE-VHqtA6nERSEsA" alt="" style="width:197px; height:109px;">
+                <h1>Hàn Quốc lần đầu phát hiện ca nhiễm biến thể nCoV</h1>
+                <img src="https://vnn-imgs-f.vgcloud.vn/2020/12/28/09/klopp-that-vong-240x160.jpg" alt="" style="width:197px; height:109px;">
+                <h1>Klopp thẳng thắn: Liverpool đáng bị như vậy</h1>
+                <img src="https://vnn-imgs-f.vgcloud.vn/2020/12/17/09/6-dia-diem-du-lich-tet-duong-lich-khu-vuc-mien-bac-1.jpg" alt="" style="width:197px; height:109px;">
+                <h1>Sáu địa điểm du lịch Tết Dương lịch khu vực miền Bắc</h1>
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div id="ndfooter">
+                Xin cảm ơn!!!</div>
+            </div>
+        </form>
+            </body>
+    
+</html>

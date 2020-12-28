@@ -1,0 +1,103 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 80%;
+    background-image: url(https://hedieuhanh.com/wp-content/uploads/2019/08/hinh-nen-powerpoint-dep-1-mau_123449441.jpg);
+}
+#menutop{
+    height:30px;
+    background-color:black;
+    position:fixed;
+    width:0;
+    top:0;
+    left:0;
+    padding:0;
+    margin:0;
+
+}
+#menu{
+    background-color:black;
+    width:1000px;
+    margin:0 auto;
+    padding:0;
+
+}
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding-top:7px;
+    padding-left:0;
+}
+#menu ul li {
+    float:left;
+    margin:0;
+
+}
+#menu ul li a{
+    padding-right:20px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+#menu ul li a :hover{
+    color:aqua;
+    text-decoration:underline;
+}
+#maincontent{
+    width:1001px;
+    margin : 30px auto;
+}
+#rightcontent{
+    float:right;
+    width:330px;
+    background:#fff;
+    border:2px solid #0094ff;
+    box-shadow : 5px 5px 5px #808080;
+    margin-top :10px;
+    margin-bottom:10px;
+    border-radius:7px;
+}
+#content {
+    float: left;
+    width: 650px;
+    background: #fff;
+    border: 2px solid #0094ff;
+    box-shadow: 5px 5px 5px #808080;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+#ndright{
+    padding:10px 15px;
+    text-align:justify;
+}
+#ndcontent {
+    padding: 10px 15px;
+    text-align: justify;
+}
+#content h1{
+    margin:0;
+    padding: 5px 10px;
+    font-family:'Times New Roman';
+    font-size:16px;
+    background:#000;
+    color:#fff000;
+    height: 26px;
+    width: 631px;
+}
+#footer{
+    clear:both;
+    background:#000;
+    width:1000px;
+    margin:auto;
+}
+#ndfooter {
+    color: black;
+    padding: 15px;
+    text-align: center;
+    height: 20px;
+    width: 980px;
+    margin-top: 143px;
+    margin-bottom: 24px;
+}

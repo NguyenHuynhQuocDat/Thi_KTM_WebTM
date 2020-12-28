@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Trang chủ.master.cs" Inherits="Bài_thi_ASP.NET.Trang_chủ" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Tin Tức Mới Nhất</title>
+    <link href="Themes/styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 345px;
+        }
+        .auto-style2 {
+            height: 288px;
+        }
+    </style>
+</head>
+<body>
+    <form id="Home" runat="server">
+        <div id="menutop">
+            <div id="menu">
+                <ul>
+                    <li><a href="Tintuc.aspx">Tin Tức</a></li>
+
+                    <li><a href="Tácgia.aspx">Tác giả</a></li>
+                    <li><a href="ChuDe.aspx">Chủ đề</a></li>
+                </ul>
+            </div>
+            </div>
+        <div id="maincontent" class="auto-style1">
+            <div id="rightcontent">
+                <h1>WELLCOME</h1>
+                <div id="ndright">
+                    Nội dung bên phải.
+                </div>
+
+            </div>
+            <div id="content" class="auto-style2">
+                
+       
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+            </div>
+        <div id="foodter">
+            <div id="ndfooter">
+                Xin cảm ơn!!!
+            </div>
+        </div>
+    </form>
+</body>
+</html>
